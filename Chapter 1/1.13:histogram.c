@@ -3,7 +3,7 @@ to draw the histogram with the bars horizontal; a vertical orientation is more c
 #include<stdio.h>
 int main(int argc,char* argv[])
 {
-    int x,y=-1,word_length=0,count=0;
+    int x,word_length=0,count=0;
     int histogram[30]; //keeping it real
     for (int i=0;i<30;i++)
     {
@@ -38,5 +38,6 @@ int main(int argc,char* argv[])
         }
         printf("\n");
     }
+    int xw;
     return 0;
 }
